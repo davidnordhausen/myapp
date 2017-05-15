@@ -8,32 +8,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
-
   </head>
 
   <body>
-  	
-    <div class="page-wrap">
-      
+    <div class="nav">
+      <ul id="nav">
+        <li>Contact</li>
+        <li>About</li>
+        <li>Home</li>
+       </ul>
     </div>
 
+	   <%= yield %>
+
     <footer class="site-footer">
-  
+    &copy; 2015 Bike Berlin
     </footer>
-
-  	<div class="nav">
-    <ul id="nav">
-      <li>Contact</li>
-      <li>About</li>
-      <li>Home</li>
-    </ul>
-  </div>
-
-	<%= yield %>
-
-	<footer>
-  &copy; 2015 Bike Berlin
-	</footer>
-
+    
   </body>
 </html>
