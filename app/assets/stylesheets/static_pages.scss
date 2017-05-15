@@ -1,3 +1,47 @@
+h1,
+h2 {
+	color: #213BBD;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+p {
+	color: #213BBD;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.site-footer, .page-wrap:after {
+  height: 50px; 
+}
+
+.site-footer {
+  background: orange;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 5px 10px 20px;
+  float: right;
+  margin-right: 5px;
+}
+
+li {
+	color: #213BBD;
+}
+
+
+
+
+
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
