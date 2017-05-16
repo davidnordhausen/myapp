@@ -1,14 +1,35 @@
 h1,
-h2 {
+h2 
+h3 {
 	color: #213BBD;
-	font-family: Helvetica, sans-serif;
+	font-family: verdana, sans-serif;
 	text-align: center;
+  font-weight: bold;
 }
 
 p {
 	color: #213BBD;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.nav {
+  background: #eee;
+  height: 5%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 * {
